@@ -6,18 +6,21 @@ The Set object lets you store values of any type, whether primitive values or ob
 ## Example 1
 Let's say you have an array that includes the first name of every user who logged onto your website in the last 24 hours. If the user logged in more than once in that 24-hour period, their name will be added to the array multiple times.
 
-names = ['aliza', 'ali', 'jo', 'ali', 'ryan', 'andre', 'lauren', 'ali', 'brock', 'lauren']
+let names = ['aliza', 'ali', 'jo', 'ali', 'ryan', 'andre', 'lauren', 'ali', 'brock', 'lauren']
 
 You can use the Set object, specifically it's constructor, to produce a Set which will only include each unique first name once -- which allows you to get an accurate number of how many users logged in during that 24-hour period.
 
 let mySet = new Set(names = ['aliza', 'ali', 'jo', 'ali', 'ryan', 'andre', 'lauren', 'ali', 'brock', 'lauren']);
+
 console.log(mySet)
 
 #### RETURNS:
 ['aliza', 'ali', 'jo', 'ryan', 'andre', 'lauren', 'brock']
 
 ## Example 2
-Set.has(value)
+Set objects can also be used to remove duplicate values from arrays ... without turning them into a Set themselves (fancy!). We'll use the same array of names for this example:
+
+let names = [ jkdjg
 
 
 #### Third-Party APIs
