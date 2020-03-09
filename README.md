@@ -1,4 +1,4 @@
-# Lightening Learn - SETS!
+# Lightning Learn - SETS!
 
 ## Overview
 The Set object lets you store values of any type, whether primitive values or object references. This makes them very similar to arrays, except for one key difference -- sets will only store unique values! That is, no duplicate values can be contained in a Set object. While the ES6 version of Javascript formally introduced a native Set object for that language, languages like Python have included native Set objects for a much longer amount of time. Lastly, Set objects are special in that they will not throw an error if you try to add a duplicate value to the list -- it will simply ignore the value and continue.
@@ -33,7 +33,7 @@ Set objects can also be used to remove duplicate values from arrays ... without 
 - How can I ensure I'm using lists that have no duplicate values?
 
 #### Useful Links
-- [Lightening Learn Slide Deck](https://docs.google.com/presentation/d/1029Q6m10SFMnZgcl2ewJV4Bb2RAyjp6thsTs0skDS1M/edit?usp=sharing)
+- [Lightning Learn Slide Deck](https://docs.google.com/presentation/d/1029Q6m10SFMnZgcl2ewJV4Bb2RAyjp6thsTs0skDS1M/edit?usp=sharing)
 - [MDN - Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 - [GitConnected - Set Data Structures](https://levelup.gitconnected.com/set-data-structure-in-javascript-62e65908a0e6)
 
