@@ -27,6 +27,11 @@ Set objects can also be used to remove duplicate values from arrays ... without 
 #### RETURNS:
     - uniqueNames = ['billy', 'bob', 'thornton']
 
+## Questions Answered By Sets
+- How many unique values are included in this array?
+- Does XXX value exist within this set? (Set.prototype.has(value) ... returns boolean value)
+- How can I ensure I'm using lists that have no duplicate values?
+
 #### Useful Links
 - [Lightening Learn Slide Deck](https://docs.google.com/presentation/d/1029Q6m10SFMnZgcl2ewJV4Bb2RAyjp6thsTs0skDS1M/edit?usp=sharing)
 - [MDN - Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
