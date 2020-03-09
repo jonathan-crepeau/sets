@@ -28,9 +28,9 @@ Set objects can also be used to remove duplicate values from arrays ... without 
     - uniqueNames = ['billy', 'bob', 'thornton']
 
 #### Useful Links
-• [Lightening Learn Slide Deck](https://docs.google.com/presentation/d/1029Q6m10SFMnZgcl2ewJV4Bb2RAyjp6thsTs0skDS1M/edit?usp=sharing)
-• [MDN - Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
-• [GitConnected - Set Data Structures](https://levelup.gitconnected.com/set-data-structure-in-javascript-62e65908a0e6)
+- [Lightening Learn Slide Deck](https://docs.google.com/presentation/d/1029Q6m10SFMnZgcl2ewJV4Bb2RAyjp6thsTs0skDS1M/edit?usp=sharing)
+- [MDN - Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [GitConnected - Set Data Structures](https://levelup.gitconnected.com/set-data-structure-in-javascript-62e65908a0e6)
 
 ## Contributors
 • Ryan Sherring / Web Developer - [Github](https://github.com/jasonToups)
