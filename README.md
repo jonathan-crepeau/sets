@@ -38,7 +38,7 @@ Set objects can also be used to remove duplicate values from arrays ... without 
 - [GitConnected - Set Data Structures](https://levelup.gitconnected.com/set-data-structure-in-javascript-62e65908a0e6)
 
 ## Contributors
-• Ryan Sherring / Web Developer - [Github](https://github.com/jasonToups)
+• Ryan Sherring / Web Developer - [Github](https://github.com/ryansherring)
 
 • Jonathan Crepeau / Web Developer - [Github](https://github.com/jonathan-crepeau)
 
