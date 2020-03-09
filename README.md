@@ -6,25 +6,31 @@ The Set object lets you store values of any type, whether primitive values or ob
 ## Example 1
 Let's say you have an array that includes the first name of every user who logged onto your website in the last 24 hours. If the user logged in more than once in that 24-hour period, their name will be added to the array multiple times.
 
-let names = ['aliza', 'ali', 'jo', 'ali', 'ryan', 'andre', 'lauren', 'ali', 'brock', 'lauren']
+  let names = ['aliza', 'ali', 'jo', 'ali', 'ryan', 'andre', 'lauren', 'ali', 'brock', 'lauren']
 
 You can use the Set object, specifically it's constructor, to produce a Set which will only include each unique first name once -- which allows you to get an accurate number of how many users logged in during that 24-hour period.
 
-let mySet = new Set(names = ['aliza', 'ali', 'jo', 'ali', 'ryan', 'andre', 'lauren', 'ali', 'brock', 'lauren']);
+  let mySet = new Set(names = ['aliza', 'ali', 'jo', 'ali', 'ryan', 'andre', 'lauren', 'ali', 'brock', 'lauren']);
 
-console.log(mySet)
+  console.log(mySet)
 
 #### RETURNS:
-['aliza', 'ali', 'jo', 'ryan', 'andre', 'lauren', 'brock']
+  ['aliza', 'ali', 'jo', 'ryan', 'andre', 'lauren', 'brock']
 
 ## Example 2
 Set objects can also be used to remove duplicate values from arrays ... without turning them into a Set themselves (fancy!). We'll use the same array of names for this example:
 
-let names = [ jkdjg
+  let names = ['billy', 'bob', 'billy', 'thornton'];
+  
+  let uniqueNames = [...new Set(names)];
 
+#### RETURNS:
+  uniqueNames = ['billy', 'bob', 'thornton']
 
-#### Third-Party APIs
-- [PetFinder](https://www.petfinder.com/developers/v2/docs/)
+#### Useful Links
+- [Lightening Learn Slide Deck](https://docs.google.com/presentation/d/1029Q6m10SFMnZgcl2ewJV4Bb2RAyjp6thsTs0skDS1M/edit?usp=sharing)
+- [MDN - Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [GitConnected - Set Data Structures](https://levelup.gitconnected.com/set-data-structure-in-javascript-62e65908a0e6)
 
 ## Contributors
 • Ryan Sherring / Web Developer - [Github](https://github.com/jasonToups)
